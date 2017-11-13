@@ -1,0 +1,84 @@
+1、数值运算
+>>> 18/5
+3.6
+>>> 18//5   两个斜杠除数是整数
+3
+>>> 5**3    两个*号代表幂运算 5的三次方
+125
+>>> mm=5    定义变量，变量之间可以运算
+>>> 20+mm
+25
+>>> work=18
+>>> work+mm
+23
+
+2、字符串
+字符串用单引号或双引号括住
+>>> 'www.oxox.com'
+'www.oxox.com'
+>>> "www.bai\"du.com"   转义字符
+'www.bai"du.com'
+>>> print("i love you")
+i love you
+>>> "wwww.baoud.com"
+'wwww.baoud.com'
+>>> firstname="bang"
+>>> firstname+"get"   字符串拼接
+'bangget'
+>>> firstname*3      会打印三次字符串
+'bangbangbang'
+>>>
+>>> vpn="虚幻账号"  相当于字符串数组
+>>> vpn[0]
+'虚'
+>>> vpn[3]
+'号'
+>>> vpn[-1]          python也可以反向查询
+'号'
+>>> vpn[-4]
+'虚'
+>>> vpn[0:2]         区域打印 从零开始 左闭右开
+'虚幻'
+>>> vpn[:2]          默认从零开始
+'虚幻'
+>>> vpn[0:]          默认输出所有
+'虚幻账号'
+>>> len("aaaaaaa")
+7
+>>> len(vpn)
+4
+>>>
+===========================
+class A:
+    pass
+
+class B(A):
+    pass
+
+isinstance(A(), A)  # returns True
+type(A()) == A      # returns True
+isinstance(B(), A)    # returns True
+type(B()) == A        # returns False
+
+type()不会认为子类是一种父类类型。
+isinstance()会认为子类是一种父类类型。
+==========================================
+
+python 支持的数据类型
+-->Numbers 数字
+-->String 字符串
+-->List 列表
+    list = [ 'abcd', 786 , 2.23, 'runoob', 70.2 ]
+-->Tuple 元组
+    tuple = ( 'abcd', 786 , 2.23, 'runoob', 70.2  )元组，元素不能修改
+-->Dictionary 字典
+   tinydict = {'name': 'john','code':6734, 'dept': 'sales'}
+-->set集合
+   student = {'Tom', 'Jim', 'Mary', 'Tom',} set集合
+
+
+
+
+
+
+
